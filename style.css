@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Story+Script&display=swap');
+
+
+:root{
+
+
+/* Paleta de cores */
+--laranja :#faf3e0;
+
+--Azul: #165e88;
+
+--Verde: #b3dfe4;
+
+--Branco: #FFFFFF;
+
+--Cinza: #E5E5E5;
+
+/* Fontes sugeridas */
+
+--Titulos: "Story Script", sans-serif;
+
+--Textos: "Open Sans", sans-serif;
+
+--Detalhes: "Montserrat", sans-serif;
+}
+
+.header
+{
+    background-color: var(--Azul);
+}
+h1{
+    font-size: 50px;
+    text-transform: capitalize;
+    font-family: var(--Titulos);
+}
+p{
+    font-size: 23px;
+    font-family: var(--Textos);
+}
+.footer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:  var(--laranja);
+}
+.footer span,.footer p
+{
+    text-align: center;
+    font-family: var(--Detalhes);
+}
+.menu
+{
+    background-color: var(--Azul);
+}
