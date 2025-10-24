@@ -32,6 +32,7 @@ h1{
     font-size: 50px;
     text-transform: capitalize;
     font-family: var(--Titulos);
+    margin-left: 25px;
 }
 p{
     font-size: 23px;
@@ -54,3 +55,90 @@ p{
 {
     background-color: var(--Azul);
 }
+
+.menu ul{
+    list-style: none;
+    padding-left: 0;
+}
+ .menu ul li {
+    background-color: var(--Verde);
+    margin-bottom: 4px;
+    padding: 8px;
+    border-radius: 4px;
+    
+    
+}
+
+.menu a {
+     text-decoration: none;
+     font-size: 18px;
+     color: var(--Azul);
+     font-weight: 900;
+     font-family: var(--Detalhes);
+ }
+ .content ol li
+{
+    font-size: 25px;
+    font-family: var(--Detalhes);
+    font-weight: 800;
+}
+.content ol p
+{
+font-size: 18px;
+font-family: var(--Textos);
+}
+.top-content {
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: space-around;
+}
+.contato p {
+    font-size: 18px;
+}
+form {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+form label {
+    font-weight: 800;
+}
+form button {
+    margin: 8px;
+    background-color: var(--Azul);
+    color: var(--Branco);
+    border-radius: 7px;
+    width: 180px;
+    height: 25px;
+}
+form input{
+    border-radius: 8px;
+    height: 25px;
+}
+form textarea {
+    border-radius: 8px;
+}
+fieldset {
+    border-radius: 8px;
+}
+table { 
+    background-color: var(--Verde);
+    padding: 2px;
+    width: 900px;
+    font-family: var(--Textos);
+    margin: 5px auto;
+}
+table tr {padding: 3px;
+
+}
+table td{background-color: var(--Cinza);
+
+}
+table th{
+    background-color: var(--Azul);
+}
+.mapa iframe {
+    border-radius: 20px;
+}
+
